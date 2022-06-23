@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51BED64F2864691500636D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED64E2864691500636D41 /* AppDelegate.swift */; };
+		51BED6512864691500636D41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6502864691500636D41 /* SceneDelegate.swift */; };
+		51BED6532864691500636D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6522864691500636D41 /* ViewController.swift */; };
+		51BED6562864691500636D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BED6542864691500636D41 /* Main.storyboard */; };
+		51BED6592864691500636D41 /* EightOctopusRecipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6572864691500636D41 /* EightOctopusRecipes.xcdatamodeld */; };
+		51BED65B2864691600636D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BED65A2864691600636D41 /* Assets.xcassets */; };
+		51BED65E2864691600636D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BED65C2864691600636D41 /* LaunchScreen.storyboard */; };
+		51BED6692864691700636D41 /* EightOctopusRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6682864691700636D41 /* EightOctopusRecipesTests.swift */; };
+		51BED6732864691700636D41 /* EightOctopusRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6722864691700636D41 /* EightOctopusRecipesUITests.swift */; };
+		51BED6752864691700636D41 /* EightOctopusRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BED6742864691700636D41 /* EightOctopusRecipesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51BED6652864691700636D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BED6432864691500636D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BED64A2864691500636D41;
+			remoteInfo = EightOctopusRecipes;
+		};
+		51BED66F2864691700636D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BED6432864691500636D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BED64A2864691500636D41;
+			remoteInfo = EightOctopusRecipes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51BED64B2864691500636D41 /* EightOctopusRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightOctopusRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BED64E2864691500636D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51BED6502864691500636D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51BED6522864691500636D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51BED6552864691500636D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BED6582864691500636D41 /* EightOctopusRecipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EightOctopusRecipes.xcdatamodel; sourceTree = "<group>"; };
+		51BED65A2864691600636D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BED65D2864691600636D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BED65F2864691600636D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BED6642864691700636D41 /* EightOctopusRecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EightOctopusRecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BED6682864691700636D41 /* EightOctopusRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightOctopusRecipesTests.swift; sourceTree = "<group>"; };
+		51BED66E2864691700636D41 /* EightOctopusRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EightOctopusRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BED6722864691700636D41 /* EightOctopusRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightOctopusRecipesUITests.swift; sourceTree = "<group>"; };
+		51BED6742864691700636D41 /* EightOctopusRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightOctopusRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BED6482864691500636D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED6612864691700636D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED66B2864691700636D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51BED6422864691500636D41 = {
+			isa = PBXGroup;
+			children = (
+				51BED64D2864691500636D41 /* EightOctopusRecipes */,
+				51BED6672864691700636D41 /* EightOctopusRecipesTests */,
+				51BED6712864691700636D41 /* EightOctopusRecipesUITests */,
+				51BED64C2864691500636D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51BED64C2864691500636D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BED64B2864691500636D41 /* EightOctopusRecipes.app */,
+				51BED6642864691700636D41 /* EightOctopusRecipesTests.xctest */,
+				51BED66E2864691700636D41 /* EightOctopusRecipesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BED64D2864691500636D41 /* EightOctopusRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				51BED64E2864691500636D41 /* AppDelegate.swift */,
+				51BED6502864691500636D41 /* SceneDelegate.swift */,
+				51BED6522864691500636D41 /* ViewController.swift */,
+				51BED6542864691500636D41 /* Main.storyboard */,
+				51BED65A2864691600636D41 /* Assets.xcassets */,
+				51BED65C2864691600636D41 /* LaunchScreen.storyboard */,
+				51BED65F2864691600636D41 /* Info.plist */,
+				51BED6572864691500636D41 /* EightOctopusRecipes.xcdatamodeld */,
+			);
+			path = EightOctopusRecipes;
+			sourceTree = "<group>";
+		};
+		51BED6672864691700636D41 /* EightOctopusRecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				51BED6682864691700636D41 /* EightOctopusRecipesTests.swift */,
+			);
+			path = EightOctopusRecipesTests;
+			sourceTree = "<group>";
+		};
+		51BED6712864691700636D41 /* EightOctopusRecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51BED6722864691700636D41 /* EightOctopusRecipesUITests.swift */,
+				51BED6742864691700636D41 /* EightOctopusRecipesUITestsLaunchTests.swift */,
+			);
+			path = EightOctopusRecipesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BED64A2864691500636D41 /* EightOctopusRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BED6782864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipes" */;
+			buildPhases = (
+				51BED6472864691500636D41 /* Sources */,
+				51BED6482864691500636D41 /* Frameworks */,
+				51BED6492864691500636D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightOctopusRecipes;
+			productName = EightOctopusRecipes;
+			productReference = 51BED64B2864691500636D41 /* EightOctopusRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BED6632864691700636D41 /* EightOctopusRecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BED67B2864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipesTests" */;
+			buildPhases = (
+				51BED6602864691700636D41 /* Sources */,
+				51BED6612864691700636D41 /* Frameworks */,
+				51BED6622864691700636D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BED6662864691700636D41 /* PBXTargetDependency */,
+			);
+			name = EightOctopusRecipesTests;
+			productName = EightOctopusRecipesTests;
+			productReference = 51BED6642864691700636D41 /* EightOctopusRecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51BED66D2864691700636D41 /* EightOctopusRecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BED67E2864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipesUITests" */;
+			buildPhases = (
+				51BED66A2864691700636D41 /* Sources */,
+				51BED66B2864691700636D41 /* Frameworks */,
+				51BED66C2864691700636D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BED6702864691700636D41 /* PBXTargetDependency */,
+			);
+			name = EightOctopusRecipesUITests;
+			productName = EightOctopusRecipesUITests;
+			productReference = 51BED66E2864691700636D41 /* EightOctopusRecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BED6432864691500636D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					51BED64A2864691500636D41 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					51BED6632864691700636D41 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 51BED64A2864691500636D41;
+					};
+					51BED66D2864691700636D41 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 51BED64A2864691500636D41;
+					};
+				};
+			};
+			buildConfigurationList = 51BED6462864691500636D41 /* Build configuration list for PBXProject "EightOctopusRecipes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BED6422864691500636D41;
+			productRefGroup = 51BED64C2864691500636D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BED64A2864691500636D41 /* EightOctopusRecipes */,
+				51BED6632864691700636D41 /* EightOctopusRecipesTests */,
+				51BED66D2864691700636D41 /* EightOctopusRecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BED6492864691500636D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BED65E2864691600636D41 /* LaunchScreen.storyboard in Resources */,
+				51BED65B2864691600636D41 /* Assets.xcassets in Resources */,
+				51BED6562864691500636D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED6622864691700636D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED66C2864691700636D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BED6472864691500636D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BED6532864691500636D41 /* ViewController.swift in Sources */,
+				51BED64F2864691500636D41 /* AppDelegate.swift in Sources */,
+				51BED6592864691500636D41 /* EightOctopusRecipes.xcdatamodeld in Sources */,
+				51BED6512864691500636D41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED6602864691700636D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BED6692864691700636D41 /* EightOctopusRecipesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BED66A2864691700636D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BED6752864691700636D41 /* EightOctopusRecipesUITestsLaunchTests.swift in Sources */,
+				51BED6732864691700636D41 /* EightOctopusRecipesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BED6662864691700636D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BED64A2864691500636D41 /* EightOctopusRecipes */;
+			targetProxy = 51BED6652864691700636D41 /* PBXContainerItemProxy */;
+		};
+		51BED6702864691700636D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BED64A2864691500636D41 /* EightOctopusRecipes */;
+			targetProxy = 51BED66F2864691700636D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51BED6542864691500636D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BED6552864691500636D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51BED65C2864691600636D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BED65D2864691600636D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BED6762864691700636D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51BED6772864691700636D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BED6792864691700636D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EightOctopusRecipes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BED67A2864691700636D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EightOctopusRecipes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51BED67C2864691700636D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightOctopusRecipes.app/EightOctopusRecipes";
+			};
+			name = Debug;
+		};
+		51BED67D2864691700636D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightOctopusRecipes.app/EightOctopusRecipes";
+			};
+			name = Release;
+		};
+		51BED67F2864691700636D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EightOctopusRecipes;
+			};
+			name = Debug;
+		};
+		51BED6802864691700636D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JU4XYJP45K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-cBzrdGGyuiZggVp0QgqfyTTSv7O7YY0ZvXPx.EightOctopusRecipesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EightOctopusRecipes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BED6462864691500636D41 /* Build configuration list for PBXProject "EightOctopusRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BED6762864691700636D41 /* Debug */,
+				51BED6772864691700636D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BED6782864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BED6792864691700636D41 /* Debug */,
+				51BED67A2864691700636D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BED67B2864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BED67C2864691700636D41 /* Debug */,
+				51BED67D2864691700636D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BED67E2864691700636D41 /* Build configuration list for PBXNativeTarget "EightOctopusRecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BED67F2864691700636D41 /* Debug */,
+				51BED6802864691700636D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51BED6572864691500636D41 /* EightOctopusRecipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51BED6582864691500636D41 /* EightOctopusRecipes.xcdatamodel */,
+			);
+			currentVersion = 51BED6582864691500636D41 /* EightOctopusRecipes.xcdatamodel */;
+			path = EightOctopusRecipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51BED6432864691500636D41 /* Project object */;
+}
